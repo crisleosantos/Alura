@@ -1,0 +1,118 @@
+https://www.figma.com/design/7dUpw3ea8shyT1J8rergX2
+
+.lista-menu_titulo, 
+.lista-menu_item {
+    padding: 1em,
+    background-color: var(--branco);
+
+}<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraBooks</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container"> 
+            <input type="checkbox" id="menu" class="container__botao">
+    <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                <!-- código omitido -->
+
+</label>
+<ul class="lista-menu">
+  <li class="lista-menu_titulo">Categorias</li>
+  <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Programação</a>
+  </li>
+  <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Front-end</a>
+  </li>
+  <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Infraestrutura</a>
+  </li>
+  <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Business</a>
+  </li>
+  <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Design & UX</a>
+  </li>
+</ul>
+
+<!-- código omitido -->
+                <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+            </div>
+        </header>
+    </body>
+</html/>
+
+.lista-menu_titulo, 
+
+.container__botao {
+    display: none
+}
+.lista-menu_item {
+    padding: 1em,
+    background-color: var(--branco);
+
+.lista-menu__titulo {
+    color: var(--laranja);
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+.contato__titulo {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+}.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+}
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul);
+}

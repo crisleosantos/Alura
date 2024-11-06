@@ -1,0 +1,33 @@
+.carrossel_titulo {
+color: var(--laranja);
+background-color: var(--branco);
+text-align: center;
+text-transform: uppercase;.carrossel_titulo {
+color: var(--laranja);
+background-color: var(--branco);
+text-align: center;
+text-transform: uppercase;
+
+font-size: 18px;
+font-weight: 700;
+padding: 1em 0 0.5em 0
+.swiper-slide img {
+    width: 100%;
+}.swiper-slide img {
+    width: 100%;
+}.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}const swiper = new Swiper('.swiper', {
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+.swiper-pagination {
+    position: initial;
+}
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
